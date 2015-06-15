@@ -1,2 +1,1 @@
-# blog
-This is my blog
+# blog.github.io
