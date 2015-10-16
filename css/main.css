@@ -2,6 +2,13 @@ body{
 	background-color: #96D8FF;
 	margin: 0 0 0 0;
 }
+
+.wait{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 75px;
+	color:red;
+}
 /*header*/
 header{
 	background-color: black;
@@ -132,9 +139,3 @@ div#blog3{
 .list:hover{
 	color: #909090;
 }
-
-nav ul li{
-	font-family: "Times New Roman", sans-serif;
-	display: inline-block; 	
-	text-align: center; 
-	text-transform: uppercase; transition: all 300ms ease;
