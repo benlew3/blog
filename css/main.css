@@ -1,33 +1,32 @@
 body{
-	background-color: #E1E1E1;
+	background-color: #96D8FF;
 	margin: 0 0 0 0;
 }
 /*header*/
-header.header{
+header{
 	background-color: black;
 	padding: 10px 0 10px 0;
 }
 div.header{ 
-	font-family:"Times New Roman", Serif;
-	font-size: 23px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 35px;
 	color: white;
-	margin: 0 0 0 3%;
-	position: relative;
+	margin:-17px 3% 0 2%;
 	z-index: 0;
+	float:left;
 }
 ul.header{
-	float: right;
-	margin: 0.1% 3% 0 0;
-	position: relative;
-	z-index: 1;
+	display:flex;
+	justify-content:flex-end;
 }
 li.header{
-	color: white;
-	display: inline-block;
-	font-family:"Times New Roman", Serif;
-	font-size: 14px;
-	padding-right: 26px;
+	list-style-type: none;
+	margin-right: 25px;
 }
+.header{
+	color:white;
+}
+
 .line{
 	height:5px;
 	background-color: white;
@@ -38,58 +37,75 @@ li.header{
 }
 
 /* main page */
+.flex{
+	display: flex;
+	justify-content:flex-end;
+	flex-direction:row-reverse;
+}
+
+.stuff{
+	margin: 0 10px 0 65px;
+}
 
 .name{
-	font-size: 50px;
+	font-size: 55px;
 	margin: 2% 0 0 3%;
-	font-family: "Times New Roman", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.me{
+	flex-direction:column;
+	margin:2% 3%;
 }
 
 .about{
-	font-size: 16px;
+	font-size: 22px;
 	margin: 2% 0 0 3%;
-	font-family:"Times New Roman", sans-Serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 }
 
 .rock{
-	width: 20%;
-	float: right;
-	margin: 2% 3% 0 0;
-}
-
-.posts{
-	font-family: "Times New Roman", sans-serif;
-	color: black;
-	font-size: 20px;
-	font-weight: bold;
-	text-decoration: underline;
-	margin: 2% 0 0 5%;
+	width: 100%;
 }
 
 .title{
 	font-size: 30px;
-	margin: -4% 2% 0 3%;
-	font-family: "Times New Roman", sans-serif;
-	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	margin: 2% 0 0 3%;
 }
+
+.posts{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 2% 0 0 3%;
+}
+
+
 /* blog site*/
 .post{
-	font-family: "Times New Roman", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin: 3% 2% 0 2%;
 	text-align: center;
 }
 
 .date{
-	font-family: "Times New Roman", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	text-align: center;
 
 }
 
 .blog{
-	font-family: "Times New Roman", sans-serif;
-	font-size: 16px;
-	margin: 2% 5% 0 10%;
+	font-size: 22px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	margin: 2% 15%;
 }
 
 /*blog history*/
