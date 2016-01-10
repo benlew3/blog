@@ -1,9 +1,11 @@
 #txt{
-	font-size: 90px;
+	font-size: 98px;
 	text-align: center;
-	color:grey;
-	background-color: black;
+	color:#BEC9C9;
+	background-color: #212121;
+	margin-top: 30vh;
+	font-family: monospace;
 }
 body{
-	background-color: black;
+	background-color: #212121;
 }

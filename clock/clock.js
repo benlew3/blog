@@ -40,7 +40,7 @@ function startTime() {
 
 
   document.getElementById('txt').innerHTML =
-   n + ", " + o + " " + t + ", " + y + " - " + h + ":" + m + ":" + s;
+   n + ", " + o + " " + t + ", " + y + " " + h + ":" + m + ":" + s;
   var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
