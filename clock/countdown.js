@@ -8,7 +8,9 @@ function startTime() {
 
 
   document.getElementById('txt').innerHTML =
-     ((h - 12) + ":" + (59 - m)  + ":" + (59 - s));
+      ("Airplane leaves in :" + "<br>") +
+     ((h - 12) + ":" + (59 - m)  + ":" + (59 - s)) +
+     (" hours");
   var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
