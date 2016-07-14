@@ -1,0 +1,60 @@
+/*
+Main Stuff for all pages
+*/
+.container{
+  margin-left: 2vw;
+  margin-right: 5vw;
+  width: 93vw;
+}
+body{
+  background-color: #C2A673;
+}
+.blah1{
+  padding-top: 2vh;
+  background-color: #C2A673;
+}
+
+/*
+Landing Page CSS
+*/
+
+.main-link{
+  font-family: 'Amiko', sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+.icons{
+  padding: 0 5px 0 5px;
+}
+.main-link:hover{
+  color:red;
+}
+.box{
+  font-family: 'Galada', cursive;
+}
+.introduction{
+  margin-top: 4vh;
+}
+p{
+  font-family: 'Amiko', sans-serif;
+  color:black;
+}
+.link{
+  color: blue;
+}
+.next{
+  font-family: 'Amiko', sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+.next:hover{
+  color:green;
+}
+
+/*
+Main page CSS
+*/
+
+.blah2{
+  padding-top: 2vh;
+}
